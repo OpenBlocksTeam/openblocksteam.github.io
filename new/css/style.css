@@ -13,6 +13,58 @@
   src: url(../fonts/MaterialIconsRound-Regular.otf);
 }
 
+
+img {
+  width: 268px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  text-align: center;
+}
+
+.footerText {
+  padding-top: 32px;
+  font-size: 25px;
+}
+
+.downloadButton {
+  cursor: not-allowed;
+  font-size: .875rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+  letter-spacing: .0892857143em;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 8px 0 8px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  background-color: #f50057;
+  color: #fff;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.downloadButton:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.expand {
+  margin-top: 16px;
+  font-size: 35px;
+}
+
+.expand > .icon {
+  cursor: pointer;
+  user-select: none;
+}
+
+
+/* Tarochino's CSS */
+
 body, html {
   height: 100%
 }
@@ -241,6 +293,8 @@ body {
   padding: 64px 32px 0 32px;
   box-sizing: border-box;
   max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .title-box {

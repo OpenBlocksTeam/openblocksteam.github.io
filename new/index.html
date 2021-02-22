@@ -17,7 +17,7 @@
     </div>
     <script>const drawerToggle = document.getElementById("dtg");</script>
     <div class="menu">
-      <a href="#" onclick="drawerToggle.click()">
+      <a href="#home" onclick="drawerToggle.click()">
         <div>
           <span class="icon">home</span>
           <span class="name" >Home</span>
@@ -35,12 +35,14 @@
           <span class="name" >About it</span>
         </div>
       </a>
-      <a href="#pricing" onclick="drawerToggle.click()">
-        <div>
-          <span class="icon">attach_money</span>
-          <span class="name" >Home</span>
-        </div>
-      </a>
+      <!--
+        <a href="#pricing" onclick="drawerToggle.click()">
+          <div>
+            <span class="icon">attach_money</span>
+            <span class="name" >Home</span>
+          </div>
+        </a>
+      -->
       <a href="#contact" onclick="drawerToggle.click()">
         <div>
           <span class="icon">alternate_email</span>
@@ -55,11 +57,21 @@
       </a>
     </div>
   </div>
-  <div class="content">
+  <div class="content home" id="home">
+    <img src="./images/screenshot.png">
     <span class="title-box">
       <span class="title">OpenBlocks</span>
-      <span class="subtitle">Open source Sketchware alternative.</span>
+      <span class="subtitle">An open source, modular alternative of sketchware.</span>
     </span>
+    <div class="footerText">
+      <button class="downloadButton">Download</button>
+      
+      <div class="expand">
+        <span class="icon">
+          expand_more
+        </span>
+      </div>
+    </div>
   </div>
 </body>
 </html>

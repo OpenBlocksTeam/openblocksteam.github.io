@@ -7,6 +7,7 @@
     <meta name="name"        content="OpenBlocks">
     <meta name="description" content="OpenBlocks is a community-driven modular android application that can create android apps using block programming like scratch. Every component for OpenBlocks is modular, these modules can be loaded and unloaded at runtime, giving users freedom on what they want to do with this app. Create customizable blocks, Custom widgets, Custom manager, Custom project type, Custom everything, Anything you want with it!">
     <meta name="keywords"    content="Sketch, Blocks, Code, Open, Free, Android, App, Easy">
+    <meta name="theme-color" content="#1976d2">
 
     <meta property="og:title"       content="OpenBlocks">
     <meta property="og:url"         content="https://openblocks.tk">
@@ -16,11 +17,31 @@
     <title>OpenBlocks</title>
 
     <link rel="icon"       href="./img/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp">
     <link rel="stylesheet" href="./css/style.css">
 
     <script async src="https://arc.io/widget.min.js#rGPwqo8s"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z8BE5CQRQJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-Z8BE5CQRQJ');
+    </script>
   </head>
   <body>
-    Under Development...
+    <div class="navBar">
+      <h2 class="title"><i class="material-icons-round titleIcon">view_in_ar</i> OpenBlocks</h2>
+      <a href="#" class="hamburgerIcon" onclick="openMenu()"><span class="material-icons-round">menu</span></a>
+      <ul class="menu" id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Download</a></li>
+        <li><a href="#">Other</a></li>
+      </ul>
+    </div>
+    Under development!
+    <script src="./js/main.js"></script>
   </body>
 </html>

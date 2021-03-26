@@ -4,10 +4,6 @@
 
 <h1 align="center">OpenBlocks Website</h1>
 
-Website for OpenBlocks.
-
-----
-
 An open source, modular alternative of sketchware. Create your own app in android using block programming like scratch!
 
 ## What is OpenBlocks?

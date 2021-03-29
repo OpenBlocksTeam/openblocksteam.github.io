@@ -10,15 +10,6 @@ body {
   font-family: 'Lexend Deca', sans-serif;
 }
 
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-a:active {
-  color: #fff;
-}
-
 .navBar {
   background-color: #2196f3;
   margin: 0;
@@ -33,7 +24,6 @@ a:active {
 .navBar > .title {
   color: white;
   font-size: 1.5em;
-  vertical-align: middle;
 }
 
 .navBar > ul {
@@ -45,6 +35,11 @@ a:active {
 .navBar > ul > li {
   padding: 8px;
   display: inline;
+  color: #fff;
+}
+
+.navBar > ul > li > a {
+  text-decoration: none;
   color: #fff;
 }
 
@@ -60,8 +55,26 @@ a:active {
   margin-left: auto;
   margin-right: auto;
   padding: 8px;
+  padding-top: 16px;
   width: 70%;
-  text-align: center;
+}
+
+a {
+  color: #2196f3;
+}
+
+a:hover {
+  color: #e91e63;
+}
+
+.bigIcon {
+  font-size: 70px;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+
+.footer {
+  margin-top: 16px;
 }
 
 @media screen and (max-width: 600px) {
@@ -86,6 +99,8 @@ a:active {
     text-align: left;
   }
   .container {
-    width: 100%;
+    width: 95vw;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
